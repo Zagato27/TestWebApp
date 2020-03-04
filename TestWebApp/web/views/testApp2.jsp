@@ -28,5 +28,8 @@
             out.println("You entered null");
     %>
 </div>
+    <div>
+        <button onclick="location.href='/'">Back startpage</button>
+    </div>
 </body>
 </html>

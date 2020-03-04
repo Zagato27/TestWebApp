@@ -11,6 +11,8 @@
     <title>Random number(1-10)</title>
 </head>
 <body>
+<div>
+
 <%
     // java код
 
@@ -18,5 +20,10 @@
 
 
 %>
+</div>
+
+<div>
+    <button onclick="location.href='/'">Back startpage</button>
+</div>
 </body>
 </html>
