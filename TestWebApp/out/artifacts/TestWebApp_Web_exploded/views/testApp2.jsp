@@ -15,21 +15,24 @@
             <form method="post">
                 <label>Number:
                     <input type="text" name="number"><br/>
+                    <button type="submit">Submit</button>
                 </label>
-                <button type="submit">Submit</button>
+
             </form>
     </div>
 <div>
     <%
+
         Integer num = (Integer) request.getAttribute("number");
         if (num != null)
             out.println("Squared number: " + (num*num));
         else
             out.println("You entered null");
+
+
     %>
 </div>
-    <div>
-        <button onclick="location.href='/'">Back startpage</button>
-    </div>
+
+
 </body>
 </html>
